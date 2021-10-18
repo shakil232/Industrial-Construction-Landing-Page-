@@ -11,30 +11,35 @@
     <title>Industrial Construction</title>
 
     <!-- all css Links -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="industrial.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/favicon/FAVICON.png" type="image/x-icon">
 
 </head>
 
 <body>
-    <!-- Start Connect Section -->
-    <section class="connect-bg p-2">
+    <!-- Start header Section -->
+    <header class="connect-bg p-2">
         <main class="container">
-            <div class="d-flex flex-column-reverse flex-md-row align-content-center justify-content-between ps-4">
+            <div class="row ">
+                <div class=" col-md-4 col-sm-12 text-center text-white">
+                    <h5>INDUSTRIAL <small class="fs-6 text-warning">Integrated Solutions</small> </h5>
 
-                <div class="text-center ">
+                </div>
+                <div class=" col-md-5 col-sm-12 text-center ">
                     <a class="text-decoration-none text-white" href="#">
                         <i class="fas fa-phone-alt pe-1"></i>
-                        +08801718232160
+                        1-788-232-9087
                     </a>
                     <a class="text-decoration-none ps-5 text-warning" href="#">
                         <i class="far fa-envelope-open pe-1"></i>
-                        autocar@gmail.com
+                        industrial02@gmail.com
                     </a>
                 </div>
-                <div class="text-center">
+
+                <div class=" col-md-3 col-sm-12 text-center">
                     <a class="text-decoration-none pe-3 connected-icons" href="#">
                         <i class="fab fa-facebook-f "></i>
                     </a>
@@ -53,65 +58,530 @@
                 </div>
             </div>
         </main>
-    </section>
-    <!-- End Connect Section -->
+    </header>
+    <!-- End Header Section -->
 
-    <!-- START HEADER SECTION -->
-    <header class="header-bg overflow-auto ">
-        <!-- TOP TEXT AREA -->
-        <section
-            class="container header-text d-flex justify-content-around align-content-center bg-secondary text-white  mt-3 p-2 flex-column-reverse flex-md-row">
-
-            <h5 class="fw-bold"> BODY <span class="text-warning">BUILDING</span></h5>
-
-            <h5 class="fw-bold"> NEED HELPS IMPROVE <span class="text-warning">STRENGTH</span></h5>
-
-        </section>
-
-        <!-- START HEADER HERO -->
-        <section class="py-2 my-2 container">
-            <main class="row g-4 h-auto align-items-center justify-content-center ">
+    <!-- START Hero SECTION -->
+    <section class="header-bg overflow-hidden h-auto">
+        <main class="py-2 my-2 container ">
+            <div class="row g-4 h-auto align-items-center justify-content-center ">
                 <!-- INTRO AREA -->
-                <div class="col-md-9 ps-2">
-                    <h3 class="text-danger fw-bold"> THE ULTIMATE PRE-WORKOUT</h3>
-                    <h2 class="text-warning fw-bold"> SUPPLEMENT EXPERIENCE</h2>
-                    <P class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Saepe minima,
-                        minus reprehenderit
-                        aliquam magnam !</P>
+                <div class="col-md-9 col-sm-12 text-end pe-5 intro-text">
+                    <h2 class=" fw-bold"> PREMIUM QUALITY</h2>
+                    <p class=" fw-bold ">And Efficient Civil Works</p>
                     <button class="btn-danger border-0 rounded-3 p-2 fw-bold">
-                        Contact Us
+                        Enquire Now
                     </button>
                 </div>
 
                 <!-- FORM AREA -->
-                <div class="col-md-3 bg-secondary pb-3 ">
-                    <h4 class="text-center mb-4 pt-2 text-white"> GET STARTED NOW!</h4>
+                <div class="col-md-3 col-sm-12 from-bg pb-3">
+                    <h5 class="text-center mb-3 pt-3 text-white"> CONTACT US TODAY</h5>
 
-                    <form onSubmit={}>
-                        <div class="form-group pb-2">
-                            <input type="text" name="name" placeholder="Name" class="form-control" />
+                    <form class="p-2" onSubmit={}>
+                        <div class="d-flex justify-content-between align-content-center pb-2">
+                            <div class="form-group ">
+                                <input type="text" name="first-name" placeholder="First Name" class="form-control" />
+                            </div>
+                            <div class="form-group ps-1">
+                                <input type="text" name="last-name" placeholder="Last Name" class="form-control" />
+                            </div>
                         </div>
 
-                        <div class="form-group pb-2">
-                            <input type="phone" name="phone" placeholder="Phone No" class="form-control" />
+                        <div class="form-group pb-1">
+                            <input type="text" name="company" placeholder="Company" class="form-control" />
                         </div>
 
-                        <div class="form-group pb-2">
-                            <input type="email" name="email" placeholder="Email" class="form-control" />
+                        <div class="d-flex justify-content-between align-content-center pb-3 pt-1">
+                            <div class="form-group ">
+                                <input type="email" name="email" placeholder="Email" class="form-control" />
+                            </div>
+                            <div class="form-group  ps-1">
+                                <input type="phone" name="phone" placeholder="Phone" class="form-control" />
+                            </div>
                         </div>
 
                         <div class="form-group pb-2">
                             <textarea name="message" rows="3" placeholder="Message" class="form-control"></textarea>
                         </div>
 
-                        <div className="text-center form-group pb-2">
-                            <input type="submit" class="form-control bg-warning fw-bold " value="Send A Message" />
+                        <div className="text-center form-group pb-3">
+                            <input type="submit" class="form-control bg-danger border-0 fw-bold text-white"
+                                value="Send A Message" />
                         </div>
                     </form>
                 </div>
+            </div>
+        </main>
+    </section>
+    <!-- END  HERO Section-->
+
+    <!-- Start About Section -->
+    <section class="custom-bg-color mt-5 h-auto pb-5">
+        <div class="container">
+            <main class="row g-4 h-auto align-items-center justify-content-center">
+                <div class="col-md-8 col-sm-12">
+                    <!-- About header -->
+                    <div class="ps-2">
+                        <h2 class="about-heading fw-bold">
+                            Welcome To 
+                            <span class="about-heading-span">Industrial-Solution</span>
+                        </h2>
+                        <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                            optio reiciendis temporibus? Id provident quidem
+                            maxime doloremque dignissimos temporibus velit magni vel iusto reprehenderit ducimus est
+                            sequi,
+                            labore dolore illo dolorum numquam in enim eum.
+                        </p>
+                    </div>
+
+                    <!-- fast two div -->
+                    <div class="d-flex flex-column-reverse flex-md-row h-auto">
+                        <div
+                            class=" d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
+                            <div class="icon m-auto">
+                                <img class="img-fluid" src="images/icon/home-service.png" alt="home-service">
+                            </div>
+                            <div class="text ps-4 m-auto">
+                                <h5 class="about-service-heading">Home Service</h5>
+                                <small class="text-secondary">
+                                    Lorem ipsum dolor sit amet. <br> consectetur Praesentium,eaque.
+                                </small>
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
+                            <div class="icon m-auto">
+                                <img class="img-fluid" src="images/icon/worker.png" alt="worker">
+                            </div>
+                            <div class="text ps-4 m-auto">
+                                <h5 class="about-service-heading">Excellence Workers</h5>
+                                <small class="text-secondary">
+                                    Lorem ipsum dolor sit amet. <br>
+                                    consectetur Praesentium,eaque.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd two div -->
+                    <div class="d-flex flex-column-reverse flex-md-row h-auto">
+                        <div
+                            class=" d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
+                            <div class="icon m-auto">
+                                <img class="img-fluid" src="images/icon/first-1.png" alt="response-first">
+                            </div>
+                            <div class="text ps-4 m-auto">
+                                <h5 class="about-service-heading">Quick Response</h5>
+                                <small class="text-secondary">
+                                    Lorem ipsum dolor sit amet. <br> consectetur Praesentium,eaque.
+                                </small>
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
+                            <div class="icon m-auto">
+                                <img class="img-fluid " src="images/icon/maintenance.png" alt="maintenance">
+                            </div>
+                            <div class="text ps-4 m-auto">
+                                <h5 class="about-service-heading">Quality Instrument</h5>
+                                <small class="text-secondary">
+                                    Lorem ipsum dolor sit amet. <br> consectetur Praesentium,eaque.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About img -->
+                <div class="col-md-4 col-sm-12">
+                    <div>
+                        <img class="card-img-top img-fluid " src="images/bg/about-img.png" alt="about-img">
+                    </div>
+                </div>
             </main>
-        </section>
-        <!-- END HEADER HERO -->
+            <!-- services -->
+            <div class="row  about-service-bg h-auto rounded-3 shadow">
+
+                <div class=" col-md-4 col-sm-12 text-white border-end border-white ">
+                    <div
+                        class=" d-flex flex-column-reverse flex-md-row justify-content-evenly align-content-center pb-4 ">
+                        <div class="icon pt-3 ps-3  m-auto">
+                            <img class="img-fluid" src="images/icon/medical.png" alt="medical">
+                        </div>
+                        <div class="text pt-3  pe-3 m-auto">
+                            <h6 class=" fw-bold text-warning">Medical Construction</h6>
+                            <small class="text-white">
+                                Lorem ipsum dolor sit amet. <br> consectetur Praesentium,eaque.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 col-sm-12 text-white border-end border-white  ps-2 pe-2">
+                    <div
+                        class=" d-flex flex-column-reverse flex-md-row justify-content-evenly align-content-center pb-4">
+                        <div class="icon pt-3 ps-3 m-auto">
+                            <img class="img-fluid" src="images/icon/education.png" alt="expert">
+                        </div>
+                        <div class="text pt-3 pe-3 m-auto">
+                            <h6 class="text-warning fw-bold">Education Construction</h6>
+                            <small class="text-white">
+                                Lorem ipsum dolor sit amet. <br> consectetur Praesentium,eaque.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 col-sm-12 text-white  ps-2 pe-2">
+                    <div class=" d-flex flex-column-reverse flex-md-row justify-content-evenly align-content-center ">
+                        <div class="icon pt-3 ps-3 m-auto">
+                            <img class="img-fluid" src="images/icon/sports.png" alt="sports">
+                        </div>
+                        <div class="text pt-3 pe-3 m-auto">
+                            <h6 class="text-warning fw-bold ">Sports Construction</h6>
+                            <small class="text-white">
+                                Lorem ipsum dolor sit amet. <br> consectetur Praesentium,eaque.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Services Section -->
+    <section class="custom-bg-color pb-5 pt-4">
+        <main class="container ">
+            <!-- Services intro -->
+            <div class="pt-3 text-secondary pb-3">
+                <h2 class="pb-1 text-center fw-bolder">
+                    <span class="text-danger ps-1">OUR </span> SERVICES
+                </h2>
+                <div class="text-center px-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non accusantium ullam obcaecati.
+                        Obcaecati soluta maxime aut eaque beatae earum quam totam facere consequatur voluptas
+                        expedita sint consequuntur numquam optio pariatur nemo aspernatur reprehenderit, amet
+                        explicabo? Ad odio vitae quo, nihil illum eligendi inventore qui sit incidunt, eveniet
+                        laborum tempore?
+                    </p>
+                </div>
+            </div>
+            <!-- service img -->
+            <div class="row row-cols-1 row-cols-md-4 g-4 pt-5">
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="inner">
+                            <img src="images/services/Designing.jpg" class="card-img-top img-fluid"
+                                alt="Interior Designing">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-success fw-bold">
+                                Interior Designing
+                            </h5>
+                            <small class="card-text text-secondary">This is a longer card with supporting text below as
+                                a natural.
+                            </small>
+                            <br>
+                            <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
+                                MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="inner">
+                            <img src="images/services/Turnkey.jpg" class="card-img-top img-fluid"
+                                alt="Turnkey Project Work">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-success fw-bold">
+                                Turnkey Project Work
+                            </h5>
+                            <small class="card-text text-secondary">This is a longer card with supporting text below as
+                                a natural.
+                            </small>
+                            <br>
+                            <a class="btn-danger border-0 shadow-lg rounded-3 p-1  text-decoration-none">
+                                MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="inner">
+                            <img src="images/services/Excavation.jpg" class="card-img-top img-fluid"
+                                alt="Excavation Work">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-success fw-bold">
+                                Excavation Work
+                            </h5>
+                            <small class="card-text text-secondary">This is a longer card with supporting text below as
+                                a natural.
+                            </small>
+                            <br>
+                            <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
+                                MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="inner">
+                            <img src="images/services/Repair.jpg" class="card-img-top img-fluid"
+                                alt="Repair & Restoration">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-success fw-bold">
+                                Repair & Restoration
+                            </h5>
+                            <small class="card-text text-secondary">This is a longer card with supporting text below as
+                                a natural.
+                            </small>
+                            <br>
+                            <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
+                                MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- Start Builders Section -->
+    <section class="custom-bg-color pt-5 pb-5">
+        <main class="container ">
+            <!-- builder intro -->
+            <div class="pt-3 text-secondary pb-3">
+                <h2 class="pb-1 text-center fw-bolder">
+                    OUR <span class="text-danger ps-1">BUILDERS</span>
+                </h2>
+                <div class="text-center px-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non accusantium ullam obcaecati.
+                        Obcaecati soluta maxime aut eaque beatae earum quam totam facere consequatur voluptas
+                        expedita sint consequuntur numquam optio pariatur nemo aspernatur reprehenderit, amet
+                        explicabo? Ad odio vitae quo, nihil illum eligendi inventore qui sit incidunt, eveniet
+                        laborum tempore?
+                    </p>
+                </div>
+            </div>
+            <!-- Builders Img -->
+            <div class="row row-cols-1 row-cols-md-4 g-4 pt-4">
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="p-2">
+                            <img src="images/builders/CEO.png" class="card-img-top img-fluid rounded-3" alt="CEO">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-success fw-bold">
+                                JON DOE
+                            </p>
+                            <small class="card-text text-secondary fw-bold">
+                                <i>CEO/Co-founder </i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="p-2">
+                            <img src="images/builders/HEAD-ENGINEER.png" class="card-img-top img-fluid rounded-3"
+                                alt="CEO">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-success fw-bold">
+                                OKIE PET
+                            </p>
+                            <small class="card-text text-secondary fw-bold">
+                                <i>Head Engineer</i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="p-2">
+                            <img src="images/builders/CIVIL-ENGINEER.png" class="card-img-top img-fluid rounded-3"
+                                alt="Civil-Engineer">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-success fw-bold">
+                                SPOMEN DHAR
+                            </p>
+                            <small class="card-text text-secondary fw-bold">
+                                <i>Civil Engineer</i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
+                        <div class="p-2">
+                            <img src="images/builders/MINING-ENGENEER.png" class="card-img-top img-fluid rounded-3"
+                                alt="MINING-ENGENEER">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-title text-success fw-bold">
+                                KETTI VEN
+                            </p>
+                            <small class="card-text text-secondary fw-bold">
+                                <i> Mining Engineer</i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- End Builders Section -->
+
+    <!-- START PROJECT SECTION -->
+    <section class=" custom-bg-color pb-5 pt-4">
+        <div class="container">
+            <!-- PROJECT intro -->
+            <div class="pt-3 text-secondary pb-3">
+                <h2 class="pb-1 text-center fw-bolder">
+                    <span class="text-danger pe-1">LATEST</span>PROJECTS
+                </h2>
+                <div class="text-center px-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non accusantium ullam obcaecati.
+                        Obcaecati soluta maxime aut eaque beatae earum quam totam facere consequatur voluptas expedita
+                        sint consequuntur numquam optio pariatur nemo aspernatur reprehenderit, amet explicabo? Ad odio
+                        vitae quo, nihil illum eligendi inventore qui sit incidunt, eveniet laborum tempore?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- END PROJECT INTRO -->
+
+        <!-- START GALLERY IMAGES -->
+        <main class="container pt-3 pb-5">
+            <div class="row row-cols-1 row-cols-md-4 g-3">
+                <!-- project img -->
+                <div class="col ">
+                    <div class="card border-warning shadow rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid " src="images/project/project.jpg" alt="back">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col ">
+                    <div class="card border-warning shadow rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid " src="images/project/project-2.jpg" alt="lagges">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-warning shadow rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid " src="images/project/project-3.jpg" alt="back">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-warning shadow rounded-3 h-auto">
+                        <div class="inner">
+                            <img class="card-img-top img-fluid " src="images/project/project-4.jpg" alt="lagges">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-end pt-4">
+                <a class="pervious-btn border-0 bg-secondary text-white me-2 p-2 text-decoration-none rounded-3">
+                    <i class="fas fa-angle-left"></i>
+                </a>
+                <a class="next-btn border-0 bg-success text-white p-2 me-2 text-decoration-none rounded-3">
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </div>
+        </main>
+        <!-- END GALLERY IMAGES -->
+    </section>
+    <!-- END GALLERY SECTION -->
+
+    <!-- Start Footer Section -->
+    <footer class="mt-3 pb-5 footer-bg  ">
+        <div class="container">
+            <main class="row g-4 h-auto align-items-center justify-content-center  ">
+
+                <div class="col-md-4 ps-4 text-white">
+                    <a href="#" target="_black">
+                        <img src="images/logo/LOGO.png" alt="LOGO" class="img-fluid ">
+                    </a>
+                    <p class="pe-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur blanditiis rem
+                        quasi totam fuga quaerat?</p>
+                    <div class="connected-icon-section">
+                        <a class="footer-connected-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="footer-connected-icons  text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-twitter  "></i>
+                        </a>
+                        <a class="footer-connected-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a class="footer-connected-icons text-decoration-none" href="#" target="_blank">
+                            <i class="fab fa-google-plus "></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 pt-5 ps-4 text-white">
+                    <h5 class="fw-bold pb-3"> Links</h5>
+                    <p>About Us</p>
+                    <p>Terms Of Use</p>
+                    <p>Privacy Policy</p>
+                </div>
+
+                <div class="col-md-2 pt-5 ps-4  text-white">
+                    <h5 class="fw-bold pb-3  "> Contact</h5>
+                    <p>1-788-232-9087</p>
+                    <p> industrial02@gmail.com</p>
+                    <p>Dhaka,Bangladesh</p>
+                </div>
+
+                <div class="col-md-4  ps-5 text-center text-white">
+                    <h5 class="fw-bold pb-3 "> Get In Touch</h5>
+                    <form class="ps-3"  onSubmit={}>
+                        <div class="form-group pb-3">
+                            <input type="email" name="email" placeholder="Email" class="form-control" />
+                        </div>
+
+                        <div className="text-center form-group pb-2 ">
+                            <input type="submit" class="form-control bg-warning fw-bold" value="SUBSCRIBE NOW" />
+                        </div>
+                    </form>
+                </div>
+
+            </main>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
 
 </body>
 

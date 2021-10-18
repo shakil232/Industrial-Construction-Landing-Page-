@@ -26,10 +26,10 @@ h6
 
 input[placeholder], [placeholder], *[placeholder] 
 {
-  color: rgb(10, 136, 153) !important;
+  color: rgb(36, 82, 85) !important;
 }
 
-/* CONNECT AREA */
+/* Header AREA */
 .connect-bg
 {
   background-color:#2E3967 ;
@@ -44,20 +44,102 @@ input[placeholder], [placeholder], *[placeholder]
 }
 .connected-icons :hover
 {
-  color: white;
+  color: rgb(0, 31, 27);
 }
 
-/* Header SECTION */
+/* Hero SECTION */
 .header-bg
 {
-  background-image:
-  linear-gradient(120deg,
-   rgba(44, 24, 61, 0.9) 50%,
-   transparent 50%
-  ),
-   url('images/bg/bg-2.jpg');
+  background:linear-gradient( 
+  rgba(0,0,0,0.3),
+  rgba(36, 7, 7, 0.8)),
+  url('images/bg/hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+}
+.intro-text
+{
+  color: #f7f7f7;
+}
+.from-bg 
+{
+  background-color: #2E3967;
+}
+
+/* About Area */
+.custom-bg-color
+{
+  background: rgb(246, 245, 245);
+}
+.about-heading
+{
+  color: #1a3266;
+}
+.about-heading-span
+{
+  color: #7a0644; 
+}
+.about-service-bg
+{
+  background-color: rgb(28, 16, 61);
+}
+.about-service-heading
+{
+  color: #301653;
+}
+
+/* SERVICE AREA */
+.card-hover-custom
+{
+  transition: all 0.7s ease! important;
+}
+.card-hover-custom:hover
+{
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1)!important;
+  transform: scale(1.1) !important;
+  z-index: 2;
+}
+
+/* PROJECT AREA */
+.inner
+{
+  overflow: hidden;
+}
+.inner img
+{
+  transition: all 1.9s ease;
+}
+.inner img:hover
+{
+  transform: scale(1.5); 
+}
+.next-btn{
+  outline: none !important;
+  cursor: pointer;
+}
+.pervious-btn{
+  outline: none !important;
+  cursor: pointer;
+}
+
+/* Start footer Section */
+.footer-bg{
+  background-color: #252525;
+}
+.footer-connected-icons
+{
+  color:rgb(13, 172, 150);
+  font-size: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.footer-connected-icons :hover
+{
+  color: orange;
 }
