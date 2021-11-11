@@ -16,6 +16,6 @@ _Responsive all device image_
 
 _Webpage Overview full screenshot image_
 
-![Landing Page](images/markdwon/Industrial-fullsite-screenshot.png)
+![Landing Page]()
 
 ---
