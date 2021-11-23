@@ -8,13 +8,13 @@
 - Using BackGround Image Overlay Effect .
 
 ### _Web-Site Live Link_
-[click here](http://192.168.0.103:5500/index.html)
+[click here](https://shakil232.github.io/Industrial-Construction-Landing-Page-/)
 
-_Responsive all device image_
+## _Responsive all device image_
 
 ![Landing Page](images/markdwon/Industrial-responsive.PNG)
 
-_Webpage Overview full screenshot image_
+## _Webpage Overview full screenshot image_
 
 ![Landing Page](images/markdwon/Industrial-fullsite-screenshot.png)
 
